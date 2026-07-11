@@ -114,7 +114,7 @@ work (the frontend is a pure SPA client of the FastAPI backend).
 ## Assumptions
 
 - **No authentication.** Per the assignment brief, a single default user
-  ("Alex Johnson") is treated as always logged in. The schema supports real
+  ("Mohammad Bilal") is treated as always logged in. The schema supports real
   multi-user auth (`users` table, hashed-password-ready) — adding it would
   mean adding a login endpoint + JWT/session middleware and swapping
   `get_default_user()` for a real "current user" dependency.
